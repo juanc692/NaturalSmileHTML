@@ -1,0 +1,232 @@
+/*PAGINA PRINCIPAL*/
+#NS{
+    margin-right: 20px;
+    margin-left: 70px;
+}
+a{
+    margin-right: 100px;
+    font-style: italic;
+}
+
+#QEC{
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+
+#FIDS{
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+
+#HLV{
+    margin-left: 200px;
+    font-size: 30px;
+    color: #20114e;
+    font-style: italic;
+}
+
+.CNS{
+    margin-left: 60px;
+}
+
+#HorarioLine{
+    position:relative;
+}
+#HorarioLine::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    top: -5px;
+}
+
+.LineaTitulo{
+    position:relative;
+}
+.LineaTitulo::before{
+    content:"";
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    top:80px
+}
+
+/*PAGINA INICIO O REGISTRAR SESION*/
+
+/*flex = posicion uno al lado del otro*/
+
+#NSCU{
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-bottom: -160px;
+}
+
+.padre{
+    display: flex;
+}
+
+#User{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+#CP{
+    display: block;
+}
+
+#PW{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.BT1,.BT2{               /* Botones*/
+    position: relative;
+    display:block;
+    margin-top: 20px;
+    margin-left: 70px;
+    background: #8e009b;
+    color: white;
+    padding: 3px 0px;
+}
+.BT1::before,.BT1::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #8e009b;
+    top: 0.7em;
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+}
+.BT1:hover::before,.BT1:hover::after{
+    transform: scale(1);
+}
+.BT1::before{
+    left:-55px;
+}
+.BT1::after{
+    right:-55px;
+}
+
+.BT2::before,.BT2::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #8e009b;
+    top: 0.7em;
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+}
+.BT2:hover::before,.BT2:hover::after{
+    transform: scale(1);
+}
+.BT2::before{
+    left:-55px;
+}
+.BT2::after{
+    right:-55px;
+}
+#CULogo{
+    margin-left: 270px;
+    color: #8e009b;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.BT3{
+    margin-left: 180px;
+    background: #8e009b;
+    color: white;
+}
+
+
+
+/*PAGINA meet us */
+
+
+
+#meetUs{
+    margin-left: 70px;
+    margin-top: 100px;
+    width: 700px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#Info{
+    display: flex;
+}
+
+.CNS2{
+    margin-top: 100px;
+    margin-left: 70px;
+    display: block;
+}
+
+#BT4,#BT5{
+    position: relative;
+    display:block;
+    margin-left: 70px;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+}
+#BT4{
+    margin-top: 110px;
+}
+#BT5{
+    margin-top: 125px;
+}
+
+#Tresimages{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+#QEC2{
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-bottom: 70px;
+    margin-right: 100px;
+}
+
+
+/*CREAR PACIENTE*/
+
+#CrearUser{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#CrearPacientePassword{
+    margin-left: 70px;
+}
+
+.CrearUserDistance{
+    margin-top: 20px;
+}
+.CrearPacientePasswordDistance{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.CrearPaciente{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#LogoUser{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#BT6{
+    position: relative;
+    display:block;
+    margin-top: 40px;
+    margin-left: 1110px;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+}
