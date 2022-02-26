@@ -230,3 +230,123 @@ a{
     color: white;
     padding: 10px 10px;
 }
+
+
+/*PAGINA MENU DE PACIENTE*/
+
+.MPS{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.LogoCasa{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.LogoCasa2{
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+#muñeco{
+    margin-left: 495px;
+    margin-top: 150px;
+}
+#ALMuñeco{
+    margin-left: 200px;
+}
+
+#BT7{
+    position: relative;
+    display:flex;
+    margin-left: 860px;
+    margin-top: -150px;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+}
+#BT8{
+    position: relative;
+    display:flex;
+    margin-left: 600px;
+    margin-top: -150px;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+}
+#BT9{
+    position: relative;
+    display: flex;
+    margin-left: 860px;
+    margin-top: -40px;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px; 
+}
+#BT10,#BT11{
+    position: relative;
+    display: flex;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px; 
+}
+#BT10{
+    margin-left: 600px;
+    margin-top: -50px;
+}
+#BT11{
+    margin-left: 860px;
+    margin-top: -40px;
+}
+#BT12{
+    position: relative;
+    display: flex;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 600px;
+    margin-top: -40px;
+}
+
+#barra1{
+    margin-top: -5px;
+}
+.BARRA{
+    position: relative;
+    display: block;
+    margin-top:-600px;
+    margin-left: 98%;
+}
+
+/*MENU ODONTOLOGO*/
+
+#OdonLista{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.padre2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.BTodontologo{
+    position: relative;
+    display: flex;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+}
+#BTcitas{
+    position: relative;
+    display: flex;
+    background: #8e009b;
+    color: white;
+    padding: 10px 30px;
+}
+#BT13{
+    position: relative;
+    display: flex;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+}
