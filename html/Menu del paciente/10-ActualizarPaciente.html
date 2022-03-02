@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar paciente</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <section class="padre"> 
+        <section id="CrearUser">
+        <form class="CrearUserDistance">
+            Nombre*:
+            <input type="text" name="CampoNombre">
+        </form>
+        <form class="CrearUserDistance">
+            Apellido*:
+            <input type="text" name="CampoApellido">
+        </form>
+        <form class="CrearUserDistance">
+            Numero de identificación*:
+            <input type="text" name="CampoIdentificación">
+        </form>
+        <form class="CrearUserDistance">
+            Fecha de nacimiento*:
+            <input type="date" name="Nacimiento" id="birthday">
+        </form>
+        <form class="CrearUserDistance">
+            Telefono*:
+            <input type="tel" name="telefono" id="Ntelefono">
+        </form>
+        <form class="CrearUserDistance">
+            Dirección*:
+            <input type="text" name="dirección" id="direccion">
+        </form>
+        <form class="CrearUserDistance">
+            Correo*:
+            <input type="email" name="correo" id="correo">
+        </form>
+        <form Class="CrearUserDistance">
+            Genero:
+            <select name="Genero" id="Genero">
+                <option value="Hombre">Genero</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
+            Tipo de identificación:
+            <select name="TipoIdentificación" id="TypeID">
+                <option value="Tipo">Tipo de identificación</option>
+                <option value="CC">CC</option>
+                <option value="TIdentidad">TI</option>
+                <option value="Extranjero">CE</option>
+                <option value="Permiso especial">PE</option>
+            </select>
+        </form>
+        </section>
+        <section id="CrearPacientePassword">
+        <img id="LogoUser" src="userImage.png" alt="ImagenUser" style="width:256px;height:256px">
+        <form class="CrearPacientePasswordDistance">
+            Contraseña*:
+            <input type="password" name="contraseña" id="constraseñaCrearUser">
+        </form>
+        <form class="CrearPacientePasswordDistance">
+            Confirmar contraseña*:
+            <input type="password" name="ConfirmarContraseña" id="ConfirmPasswordCrearUser">
+        </form>
+        <form class="CrearPaciente">
+            <input type="submit" value="Actualizar Datos">
+        </form>
+        </section>
+        </section>
+        <form action="../7-MenPaciente.html">
+        <button id="BT6">Volver</button>
+        </form>
+</body>
+</html>

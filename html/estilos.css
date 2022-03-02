@@ -350,3 +350,77 @@ a{
     color: white;
     padding: 10px 10px;
 }
+.AdmBT{
+    position: relative;
+    display: flex;
+    background: #8e009b;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 1%;
+}
+
+#admin{
+    display: flex;
+    margin-left: 40%;
+    margin-top: -210px;
+    font-size: 20px;
+    font-style:italic;
+    padding: 10px 10px;
+    border: 2px solid black;
+    width:33%;
+}
+
+#admin2{
+    margin-left: 40%;
+}
+
+.LineaAdminPage{
+    position: relative;
+}
+.LineaAdminPage::before{
+    content:"";
+    position:absolute;
+    width: 2px;
+    height:130%;
+    background-color: black;
+    top:-150px;
+    right:70%;
+}
+.tabla{
+    width: 190%;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+th.tabla,td.tabla{
+    padding: 3px;
+}
+
+/*CALENDARIO*/
+.tituloCal{
+    text-align: center;
+    margin:.2em 0;
+    color:#232323;
+}
+.contenedor{
+    margin:5em auto;
+    width: 400px;
+    border:2px solid black;
+    padding: 1em;
+    box-shadow: -.5px 3px 5px rgba(0,0,0,0.2);
+}
+.calendario{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.dia{
+    list-style: none;
+    padding: .3px .5px;
+    text-align: right;
+    color: #444;
+}
+.dia-nombre{
+    background: #eee;
+    font-weight: 700;
+    text-align: center;
+}
